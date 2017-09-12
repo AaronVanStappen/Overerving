@@ -19,9 +19,6 @@ public class Werknemer extends Persoon {
         aantalWN++;
     }
 
-
-
-
     private String getFunctie() {
         return functie;
     }
