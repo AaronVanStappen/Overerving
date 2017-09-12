@@ -26,7 +26,7 @@ public class Werknemer extends Persoon {
         return functie;
     }
 
-    private void setFunctie(String functie) {
+    public void setFunctie(String functie) {
         this.functie = functie;
     }
 
@@ -34,7 +34,7 @@ public class Werknemer extends Persoon {
         return salaris;
     }
 
-    private void setSalaris(BigDecimal salaris) {
+    public void setSalaris(BigDecimal salaris) {
        this.salaris = salaris.doubleValue() < MINIMUM_LOON.doubleValue() ? MINIMUM_LOON : salaris;
     }
 
