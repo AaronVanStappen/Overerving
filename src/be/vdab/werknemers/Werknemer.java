@@ -12,6 +12,7 @@ public class Werknemer extends Persoon {
         this(naam, voornaam, adres, "Algemeen bediende", BigDecimal.valueOf(1800));
     }
 
+
     Werknemer(String voornaam, String naam, Adres adres, String functie, BigDecimal salaris) {
         super(voornaam, naam, adres);
         setFunctie(functie);
